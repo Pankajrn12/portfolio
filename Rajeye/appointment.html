@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            /* background-color: red; */
+        }
+        .bg{
+            height: 100vh;
+            width: 100%;
+        }
+        .cont{
+            margin-top: -650px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            /* align-items: center; */
+            height: 68vh;
+            width: 65vh;
+            border:  3px solid white;
+        }
+        .book{
+            margin-left: 15%;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            
+        }
+        .pesent{
+            margin-top: 10px;
+            margin-left: 20%;
+            font-size: 18px;
+        }
+
+        .box{
+            margin-left: 20%;
+            margin-top: 3px;
+            height: 40px;
+            width: 250px;
+            background-color: rgb(224, 171, 171);
+        }
+        .mobi{
+            margin-left: 20%;
+            font-size: 18px;
+
+        }
+        #cc{
+            margin-left: 20%;
+            width: 50px;
+            height: 40px;
+            background-color: rgb(224, 171, 171);
+        }
+        .mobilen{
+            margin-top: 3px;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(224, 171, 171);
+        }
+        .quiry{
+            margin-left: 20%;
+            font-size: 18px;
+        }
+
+        .quir{
+            margin-top: 3px;
+            margin-left: 20%;
+            height: 150px;
+            width: 250px;
+            background-color: rgb(224, 171, 171);
+        }
+        .btn{
+            margin-left: 20%;
+            width: 250px;
+            height: 40px;
+            background-color: #f72000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="background.jpg" alt="" class="bg">
+        <div class="cont">
+        <div class="book">Book an Appointment</div>
+        <div class="pesent">Pesent Name</div>
+        <input type="text" class="box" placeholder="Enter Pesent Name">
+        <div class="mobi">Mobile Number</div>
+        <select name="country code" id="cc">
+        <option value="India">+91</option>
+    </select>
+        <input type="tel" class="mobilen" placeholder="123456545">
+        <div class="quiry">Your Query</div>
+        <input type="text" class="quir" placeholder="Enter the Quiry Optional">
+        <br>
+        <br>
+        <button class="btn">Submit</button>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 130vh;
+            width: 100%;
+            /* border: 2px solid red; */
+        }
+        .contain{
+            width: 100%;
+            height: 15%;
+            background-color: gray;
+        }
+        .h2{
+            margin-left: 45%;
+            margin-top: -59px;
+            font-size: 30px;
+            color: white;
+        }
+        .log{
+            width: 400px;
+            height: 80px;
+            margin-top: 10px;
+        }
+        .containner{
+            height: 100vh;
+            width: 99%;
+            /* border: 3px solid red; */
+        }
+        .h1{
+            margin-top: 20px;
+            margin-left: 20%;
+            font-size: 35px;
+        }
+        .nam{
+            margin-left: 100px;
+            font-size: 30px;
+            gap: 10px
+            ;
+            /* font-weight: bold; */
+        }
+        .name{
+            width: 300px;
+            height: 40px;
+        }
+        #cc{
+            height: 40px;
+            margin-left: 20px;
+        }
+        #cd{
+            height: 40px;
+            width: 200px;
+        }
+        .btn{
+            font-size: 20px;
+            margin-left: 40%;
+            height: 35px;
+            width: 200px;
+            background-color: green;
+        }
+        .namee{
+            margin-left: 100px;
+            height: 150px;
+            width: 500px;
+        }
+        input{
+            margin-left: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contain">
+            <img src="lname.png" alt="" class="log">
+        <div class="h2">Apply for a Position</div>
+        
+        <br>
+    </div>
+    <div class="containner">
+    <form action="">
+        <div class="h1">Complete the form below to apply for a position with us.</div>
+        <br>
+        <label for="" class="nam">Applying for Position:- </label>
+        <select name="country code" id="cd">
+       <option value="India">Optometrists</option>
+       <option value="India">Ophthalmologists</option>
+       <option value="India">Trust Manager</option>
+       <option value="India">Application Forms</option>
+       <option value="India">....Select.....</option>
+       </select><br><br>
+
+        <label for="" class="nam">Name:-</label>
+            <input type="text" class="name" placeholder="Enter the name first name">
+            <input type="text" class="name" placeholder="Enter the name seconds name">
+            <input type="text" class="name" placeholder="Enter the name Last name">
+            <br><br>
+        <label for="" class="nam">Email-I'D:-</label>
+        <input type="email" class="name" placeholder="abcd@gmail.com">
+        <br><br>
+        <label for="" class="nam">Mobile Number:-</label>
+        <select name="country code" id="cc">
+            <option value="India" class="namb">+91</option>
+        <input type="tel" class="name" placeholder="1235455222">
+        <br><br>
+
+        <label for="" class="nam">Current Address</label>
+        <input type="text" class="name" placeholder="address">
+        <br><br>
+
+       <label for="" class="nam">Cover Latter:-</label><br>
+       <input type="text" class="namee" placeholder="Enter the text">
+       <br><br>
+       <label for="" class="nam">Upload Resume</label>
+       <input type="file" id="md" name="myfile">
+        <br>
+       <button class="btn">Submit</button>
+            
+    </form>
+</div>
+
+    </div>
+</body>
+</html>
